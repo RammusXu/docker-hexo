@@ -1,4 +1,4 @@
-Before you run commands below, remember to replace `-v /Users/rammus/workspace/rammusxu.github.io/blog:/blog`.
+Before you run commands below, remember to replace `-v /Users/rammus/workspace/rammusxu.github.io/blog:/blog` to yourself project path.
 
 ### First Run
 
