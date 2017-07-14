@@ -1,3 +1,5 @@
+Before you run commands below, remember to replace `-v /Users/rammus/workspace/rammusxu.github.io/blog:/blog`.
+
 ### First Run
 
 Mount your hexo project and install dependent packages.
