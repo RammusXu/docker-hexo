@@ -33,6 +33,19 @@ docker run -d --name hexo \
     rammusxu/docker-hexo
 ```
 
+### Deploy
+
+Deploy to git, you must set `GIT_EMAIL` and `GIT_NAME`
+
+```
+docker run --rm \
+    -e GIT_EMAIL="comte_ken@hotmail.com" \
+    -e GIT_NAME="Rammus Xu" \
+    -v "/Users/rammus/.ssh:/root/.ssh" \
+    -v "$PWD":/blog \
+    docker-hexo deploy
+```
+
 ### Run Other Commands
 
 You can execute other command after `rammusxu/docker-hexo`.
