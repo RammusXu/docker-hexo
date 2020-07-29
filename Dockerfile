@@ -1,5 +1,4 @@
-FROM node:boron
-MAINTAINER Rammus Xu "comte_ken@hotmail.com"
+FROM node:12.18
 
 RUN npm install hexo-cli -g
 
